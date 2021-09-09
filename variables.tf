@@ -11,12 +11,12 @@ variable "subnet_id" {
 }
 
 variable "ami_id" {
-  description = "The AMI to use"
+  description = "The AMI to use for creation of Ec2 instance"
 }
 
 variable "number_of_instances" {
   description = "number of instances to make"
-  default = 1
+  default = 2
 }
 
 variable "user_data" {
