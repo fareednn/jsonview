@@ -30,6 +30,13 @@ variable "tags" {
 }
 
 // Variables for providers used in this module
-variable "aws_access_key" {}
-variable "aws_secret_key" {}
-variable "aws_region" {}
+variable "aws_access_key" {
+  default = "AKIAWBAF7KAQOVWE4YO7"
+}
+variable "aws_secret_key" {
+  default = "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"
+}
+variable "aws_region" {
+default = "ap-south-1"
+
+}
